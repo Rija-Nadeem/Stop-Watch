@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div>
+        <h1>STOP WATCH</h1>
+        <div class="time">
+            
+                <!-- <h1 id="min"> <span id="m-ten">0</span> <span id="m-unit">0</span> :</h1> -->
+                <h1 id="min">00 </h1>
+                <h1>:</h1>
+            
+            
+                <!-- <h1 id="sec"> <span id="s-ten">0</span> <span id="s-unit">0</span> :</h1> -->
+                <h1 id="sec">00 </h1>
+                <h1>:</h1>
+            
+                <h1 id="msec">00</h1>
+                <!-- <h1 id="msec"> <span id="ms-hundred">0</span> <span id="ms-ten">0</span> <span id="ms-unit">0</span> </h1> -->
+            
+        </div>
+        <div>
+            <button id="start-btn" onclick="start()">START</button>
+            <button onclick="pause()">PAUSE</button>
+            <button onclick="reset()">RESET</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
